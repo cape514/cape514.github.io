@@ -10,7 +10,7 @@ $message = $_POST['message'];
 
 
 $content="From: $name, $message ";
-$recipient = "union@example.com";
+$recipient = "cape514esdc@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
 echo "Confirmation: Email sent! Thank you we will be in touch as soon as possible.";
