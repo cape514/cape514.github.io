@@ -44,9 +44,10 @@ a {
 /* ==================================================
   Elements
   ================================================== */
+
 .carousel-caption {
-  top:-10px;
-  bottom:200px;
+  top:0%;
+  bottom:20%;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -678,6 +679,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ==================================================
   Team Styling
   ================================================== */
+
 .team h2 {
   color: #199EB8;
 }
@@ -705,6 +707,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: .75;
   margin: 0;
   padding: 0 35px;
+  max-width: 400px;
+}
+
+.team .cards {
+  max-width: 400px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
 }
 
 .team .card .social-nav {
@@ -724,6 +734,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team .card:hover .team-over {
   opacity: 1;
   visibility: visible;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  font-size: medium;
 }
 
 .team .card:hover .card-title-wrap {
@@ -756,6 +791,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   z-index: 9;
   background-color: #fff;
+  width: 100%;
 }
 
 .team .card-title-wrap .card-title, .team .card-title-wrap .card-text {
@@ -773,6 +809,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   color: #999;
 }
+
 
 /* ==================================================
   Contact Section
