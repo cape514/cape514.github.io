@@ -59,6 +59,15 @@ a {
     border-radius: 50%;
 }
 
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #E04F00; 
+  color: #fff;
+}
+
 .btn {
   background-color: #199EB8;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -737,7 +746,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .collapsible {
-  background-color: #777;
+  background-color: #199EB8;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -750,6 +759,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .active, .collapsible:hover {
   background-color: #555;
+  color: white;
 }
 
 .content {
