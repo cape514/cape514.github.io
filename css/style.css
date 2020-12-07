@@ -89,12 +89,12 @@ a {
 
 .btn-ghost {
   border: 3px solid #fff;
-  background-color: transparent;
+  background-color: #199EB8;
 }
 
 .btn-ghost:hover {
-  background-color: #fff;
-  color: #199EB8;
+  background-color: #E04F00;
+  color: #fff;
 }
 
 section {
@@ -631,6 +631,33 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #999;
+}
+
+/* ==================================================
+  NEWS BANNER Styling
+  ================================================== */
+.nb {
+  background-color: #199EB8;
+  padding: 25px 0;
+}
+
+.nb h2 {
+  margin-bottom: 5px;
+}
+
+.nb h2,
+.nb p {
+  color: #000000  ;
+}
+
+.nb p {
+  margin-bottom: 0;
+  opacity: .75;
+}
+
+.nb .btn-ghost {
+  position: relative;
+  top: 13px;
 }
 
 /* ==================================================
