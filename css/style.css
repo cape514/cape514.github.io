@@ -759,6 +759,51 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ==================================================
+  NEWS Styling
+  ================================================== */
+
+.news .card{
+  background-color: white;
+  border-color: #199EB8;
+  border-radius: 25px;
+  border-style:solid;
+}
+
+
+.news .card:hover {
+  background-color: #edf6ff;
+}
+
+.events .card{
+  background-color: #edf6ff;
+  border-color: #199EB8;
+  border-radius: 25px;
+  border-style:solid;
+}
+
+
+.events .card:hover {
+  background-color: white;
+}
+
+/*.collapsible {
+  background-color: #edf6ff;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+*/
+/*.active, .collapsible:hover {
+  background-color: white;
+  color: white;
+}
+*/
+/* ==================================================
   Team Styling
   ================================================== */
 
