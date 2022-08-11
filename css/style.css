@@ -767,7 +767,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-color: #199EB8;
   border-radius: 25px;
   border-style:solid;
-}
+/*  height: 100%;
+*/}
 
 
 .news .card:hover {
@@ -779,6 +780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-color: #199EB8;
   border-radius: 25px;
   border-style:solid;
+  height: 100%;
 }
 
 
