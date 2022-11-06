@@ -4,6 +4,9 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
 */
+
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
@@ -41,10 +44,12 @@ a {
   transition: 0.5s;
 }
 
+
+
 /* ==================================================
   Elements
   ================================================== */
-
+/*
 .carousel-caption {
   top:0%;
   bottom:20%;
@@ -57,7 +62,7 @@ a {
     background-color: rgba(0, 0, 0, 0.3);
     background-size: 100%, 100%;
     border-radius: 50%;
-}
+}*/
 
 .button {
   transition-duration: 0.4s;
@@ -1243,4 +1248,6 @@ form.wj-contact.checkbox > input:active {
     padding-right: 30px;
   }
 }
+
+
 

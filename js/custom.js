@@ -1,4 +1,6 @@
 
+
+
 $(document).ready(function() {
 
   $('.myCarousel').carousel()
@@ -149,4 +151,5 @@ $("div[id^='myModal']").each(function(){
   });
 
 });
+
 
